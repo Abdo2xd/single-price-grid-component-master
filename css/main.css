@@ -17,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: var(--grayish_blue);
+    background-color: var(--cyan);
 }
 h2 {
     color: white;
@@ -40,6 +40,7 @@ main {
     -o-border-radius: 10px;
     background-color: white;
     overflow: hidden;
+    margin-top: -10px;
 }
 main section {
     padding: 33px 40px;
@@ -111,7 +112,7 @@ main section {
     -o-border-radius: 5px;
     cursor: pointer;
     font-weight: 700;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.35);
     font-size: 16px;
 }
 /* end community */
